@@ -29,7 +29,7 @@ brew install wget --with-iri
 ###############################################################################
 ## Install Python
 brew install python
-#brew install python3
+brew install python3
 
 # Install pip
 easy_install pip
@@ -127,14 +127,13 @@ brew cask install --appdir="/Applications" evernote
 
 # Othe Applications
 brew cask install --appdir="/Applications" remote-desktop-connectio
-#brew cask install --appdir="/Applications" 1password
+brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" vlc
-#brew cask install --appdir="/Applications" transmission
+brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" caffeine
 #brew cask install --appdir="/Applications" valentina-studio
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" filezilla
-# microsoft remote desktop
 brew cask install --appdir="/Applications" microsoft-office
 
 ## Dev

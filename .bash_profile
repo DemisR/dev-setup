@@ -1,3 +1,4 @@
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 

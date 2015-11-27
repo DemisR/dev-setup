@@ -21,6 +21,9 @@ brew update
 ## Upgrade any already-installed formulae.
 brew upgrade --all
 
+# Install more recent versions of some OS X tools.
+brew install vim --override-system-vi
+
 ## Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -119,6 +122,7 @@ brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
+#sudo softwareupdate --install slack
 brew cask install --appdir="/Applications" evernote
 
 ## Install Docker, which requires virtualbox
@@ -131,6 +135,7 @@ brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" caffeine
+#sudo softwareupdate --install caffeine
 #brew cask install --appdir="/Applications" valentina-studio
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" filezilla

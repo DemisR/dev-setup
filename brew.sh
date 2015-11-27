@@ -132,7 +132,8 @@ brew cask install --appdir="/Applications" evernote
 
 # Othe Applications
 brew cask install --appdir="/Applications" remote-desktop-connectio
-brew cask install --appdir="/Applications" 1password
+#brew cask install --appdir="/Applications" 1password
+#sudo softwareupdate --install 1password
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" caffeine

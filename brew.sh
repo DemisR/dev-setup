@@ -141,7 +141,7 @@ brew cask install --appdir="/Applications" caffeine
 #brew cask install --appdir="/Applications" valentina-studio
 brew cask install --appdir="/Applications" cheatsheet
 brew cask install --appdir="/Applications" filezilla
-brew cask install --appdir="/Applications" microsoft-office
+#brew cask install --appdir="/Applications" microsoft-office
 
 ## Dev
 brew cask install --appdir="/Applications" sourcetree

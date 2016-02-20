@@ -78,7 +78,7 @@ This repo takes a more **light-weight** approach to automation using a combinati
 
 ##### Clone the Repo
 
-    $ git clone https://github.com/donnemartin/dev-setup.git && cd dev-setup
+    $ git clone https://github.com/DemisR/dev-setup.git && cd dev-setup
 
 ##### Run the .dots Script with Command Line Arguments
 

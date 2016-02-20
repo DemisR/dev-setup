@@ -88,42 +88,30 @@ brew cask install --appdir="/Applications" macdown
 ## Install Atom code editor
 brew cask install --appdir="/Applications" atom
 ## Install Atom plugins
-#apm install atom-beautify
-#apm install block-comment
-#apm install ever-notedown
-#apm install file-icons
-#apm install git-history
-#apm install git-log
-#apm install language-generic-config
-#apm install language-nagios
-#apm install linter
-#apm install linter-pylama
-#apm install linter-shellcheck
-#apm install merge-conflicts
-#apm install open-recent
 echo "Use this commands tu install most useful Atom plugins:
 
-#apm install atom-beautify
-#apm install block-comment
-#apm install ever-notedown
-#apm install file-icons
-#apm install git-history
-#apm install git-log
-#apm install language-generic-config
-#apm install language-nagios
-#apm install linter
-#apm install linter-pylama
-#apm install linter-shellcheck
-#apm install merge-conflicts
-#apm install open-recent
+apm install atom-beautify
+apm install block-comment
+apm install ever-notedown
+apm install file-icons
+apm install git-history
+apm install git-log
+apm install language-generic-config
+apm install language-nagios
+apm install linter
+apm install linter-pylama
+apm install linter-shellcheck
+apm install merge-conflicts
+apm install open-recent
+apm install markdown-writer
 "
 
 ## Misc casks
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" slack
-#sudo softwareupdate --install slack
+#brew cask install --appdir="/Applications" slack
+sudo softwareupdate --install slack
 brew cask install --appdir="/Applications" evernote
 
 ## Install Docker, which requires virtualbox

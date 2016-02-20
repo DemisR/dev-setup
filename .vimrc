@@ -3,6 +3,10 @@ set nocompatible
 
 " Enable syntax highlighting
 syntax on
+
+" Backspace key won't move from current line
+set backspace=indent,eol,start
+
 " Highlight searches
 set hlsearch
 " Highlight dynamically as pattern is typed

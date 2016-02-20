@@ -55,6 +55,15 @@ function runDots() {
             echo ""
             ./osx.sh
         fi
+        if [ $ARG == "zsh" ] || [ $ARG == "all" ]; then
+            # Run the zsh.sh Script
+            echo ""
+            echo "------------------------------"
+            echo "Installing and configure ZSH."
+            echo "------------------------------"
+            echo ""
+            ./zsh.sh
+        fi
     done
 
     echo "------------------------------"

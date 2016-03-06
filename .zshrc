@@ -84,4 +84,5 @@ source $ZSH/oh-my-zsh.sh
 
 ##########################
 alias ipcalculator='whatmask'
+alias gitlog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"

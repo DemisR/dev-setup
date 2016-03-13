@@ -111,6 +111,8 @@ Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`:
     * Installs common Homebrew formulae and apps
 * [osx.sh](https://github.com/DemisR/dev-setup/blob/master/osx.sh)
     * Sets up OS X defaults geared towards developers
+* [zsh.sh](https://github.com/DemisR/dev-setup/blob/master/zsh.sh)
+    * Install ZSH shell and configure iTerm2 profile
 
 **Notes:**
 

@@ -11,7 +11,9 @@ echo "";
 if [[ $REPLY =~ ^[Yy]$ ]]; then
   # Install zsh
   brew install zsh zsh-completions
-
+  cp ./Inconsolata\ for\ Powerline.otf /Library/Fonts/
+  cp ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
   # download and install Oh-my-zsh
   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 fi;
